@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    border: 1px solid gray;
+    box-shadow: 2px 1px 8px gray;
+    background-color: whitesmoke;
+}
+
+.brand{
+    font-family: "Poetsen One", sans-serif;
+    font-size: 2rem !important;
+    color:#097e38;
+    text-decoration: none;
+
+}
+.navbar-brand:hover{
+    color: black;
+}
+.nav-link{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: black;
+}
+.nav-list{
+    font-family: "Poetsen One", sans-serif;
+}
+.nav-heart{
+    align-self: flex-end;
+}
+.heart{
+    color:#097e38;
+}
+.heart-icon{
+    padding-right: 10px;
+    font-size: 1.8em;
+   cursor: pointer;
+}
+/* .search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid rgb(12, 147, 102);
+} */
+.btn0{
+    margin-left: -30px;
+}
+
+.main{
+    font-family: "Poetsen One",sans-serif;
+    background-image: url('https://images.justgiving.com/image/ec829478-47f3-4d36-abeb-598d301c913e.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.main-head{
+    font-size: 3rem;
+    font-weight: 300;
+}
+.main-head2{
+    color: white;
+    background-color:#097e38;
+    padding:10px;
+}
+.main-para-div{
+    align-items: center;
+}
+.main-container{
+    align-items: center;
+}
+
+.main1-img{
+    height: 70px;
+
+}
+.main1-heads{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-weight: 600;
+}
+.main2-head1{
+    font-family: "Poetsen One",sans-serif;
+    color:#097e38;
+}
+.main2-head2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.trending-card-img{
+    height: 120px;
+}
+.product-img{
+    border: 2px solid red;
+}
+
+.product-name{
+    font-family: "Poetsen One",sans-serif;
+}
+.product-price{
+    font-weight: 500;
+}
+.card-body{
+    cursor: pointer;
+    overflow: hidden;
+}
+/* .card-body{
+
+} */
+.img-container{
+    transition: transform 0.4s ease;
+}
+.img-container:hover{
+    transform:scale(1.08);
+    overflow: hidden;
+}
+.contact-head1{
+    font-family: "Poetsen One",sans-serif;
+    
+}
+.price-span{
+    font-family: "Poetsen One",sans-serif;
+}
+.contact-head2{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+   font-weight: 600;
+   font-size: 1.1rem;
+}
+.contact-cards{
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+.contact-cards:hover{
+-webkit-box-shadow: 4px 0px 27px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 0px 27px -6px rgba(0,0,0,0.75);
+box-shadow: 4px 0px 27px -6px rgba(0,0,0,0.75);
+}
+.contact-card-head{
+    font-family:"Poetsen One",sans-serif;
+    font-size: 1.2rem;
+    font-weight: 100 !important;
+}
+.contact-card-para{
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-size: 1rem;
+}
+
+.trending-cards-details{
+    min-height: 100px;
+    overflow-y: auto;
+    max-height: 110px;
+    padding-left: 10px;
+}
+.trending-card-details-header {
+    font-family:"Poetsen One",sans-serif;
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 10;
+}
+.about-container-row1{
+    background-image: url("https://i.postimg.cc/VLV6Fcnb/top-banner.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 40vh;
+    max-height: 60vh;
+    background-repeat: no-repeat;
+}
+
+.about-para{
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+.footer{
+    color: white;
+    background-image: url("https://i.postimg.cc/vT0BtNCZ/footer-bg.png");
+    background-size: cover;
+}
+.footer-containers-head{
+    font-family: "Poetsen One",sans-serif;
+}
+.input-email{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+}
+.social-logo-containers{
+    margin-top: 20px;
+    margin-right: 25px;
+   
+}
+.footer-organiz-logos-para{
+    margin-left: 15px;
+}
+.social-logo{
+    text-decoration: none;
+    color: white !important;
+}
+.footer-rights{
+    background-color: green;
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+
+
+.poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
